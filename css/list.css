@@ -1,0 +1,191 @@
+/* 列表页面的css */
+.sk {
+	position: absolute;
+	left: 186px;
+	top: 40px;
+	width: 70px;
+	height: 32px;
+	border-left: 1px solid #b1191a;
+}
+
+.sk_list li {
+	float: left;
+	padding: 0 28px;
+	color: #000;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.sk_list li a:hover {
+	color: #c81523;
+}
+
+.sk_con li {
+	float: left;
+	padding-left: 45px;
+	color: #666;
+	font-size: 14px;
+}
+
+.sk_con .sk_con_first {
+	padding-left: 30px;
+}
+
+.sk_con i {
+	font-family: "icomoon";
+}
+
+/* 列表页内容区域 */
+.sk_container {
+	overflow: hidden;
+}
+
+.sk_hd {
+	width: 100%;
+	height: 120px;
+}
+
+.sk_bd {
+	overflow: hidden;
+	margin-top: 14px;
+	margin-bottom: 36px;
+}
+
+.sk_bd ul {
+	width: 1212px;
+}
+
+.sk_bd li {
+	position: relative;
+	float: left;
+	width: 288px;
+	height: 458px;
+	margin-top: 11px;
+	margin-right: 13px;
+	border: 1px solid transparent;
+}
+
+.sk_goods:hover {
+	border: 1px solid #e12228;
+}
+
+.padding-left-right {
+	padding: 0px 11px;
+}
+
+.sk_goods_title {
+	color: #666;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: "SimSun";
+}
+
+.sk_goods_price {
+	color: #e60012;
+	font-size: 22px;
+	line-height: 45px;
+}
+
+.sk_goods_price em {
+	font-size: 14px;
+}
+
+.sk_goods_price del {
+	margin-left: 7px;
+	color: #666;
+	font-size: 14px;
+	text-decoration: line-through;
+}
+
+.sk_goods_progress {
+	color: #666;
+	font-size: 14px;
+}
+
+.sk_goods_progress em {
+	color: #e12228;
+	font-size: 16px;
+}
+
+.total {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	margin: 0 4px;
+	border: 1px solid #e12228;
+	border-radius: 5px;
+	vertical-align: middle;
+}
+
+.progress {
+	float: left;
+	width: 87%;
+	height: 100%;
+	background-color: #ed282e;
+}
+
+.sk_goods_buy {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 288px;
+	height: 39px;
+	background-color: #b1191a;
+	color: #fff;
+	font-size: 20px;
+	line-height: 39px;
+	text-align: center;
+}
+
+.page {
+	float: right;
+	margin-bottom: 210px;
+	/* 里面的文字内容 行内块 行内元素 都可以水平居中对齐 */
+	text-align: center;
+}
+
+.page_num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	margin-right: 5px;
+	border: 1px solid #ededed;
+	line-height: 36px;
+	text-align: center;
+}
+
+.page_num .pn_prev,
+.page_num .pn_next {
+	width: 85px;
+	height: 36px;
+}
+
+.page_num .current,
+.page_num .dotted {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+
+.page_skip input {
+	width: 36px;
+	height: 36px;
+	border: 1px solid #ededed;
+	line-height: 36px;
+	text-align: center;
+	/* 过渡写在本身上，谁做动画给谁加 */
+	transition: all 0.3s;
+}
+
+/* 表单获取焦点后 */
+.page_skip input:focus {
+	width: 72px;
+	border: 1px solid skyblue;
+}
+
+.page_skip button {
+	margin-left: 10px;
+	padding: 4px 13px 5px;
+	border: 1px solid #ddd;
+	background-color: #f7f7f7;
+	line-height: 27px;
+}

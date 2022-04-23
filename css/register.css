@@ -1,0 +1,166 @@
+.header {
+	height: 82px;
+	border-bottom: 1px solid #b1191a;
+}
+
+.logo {
+	top: 15px;
+}
+
+.registerarea {
+	height: 600px;
+	margin-top: 20px;
+	border: 1px solid #dfdfdf;
+}
+
+.title {
+	height: 40px;
+	border: 1px solid #dfdfdf;
+	background-color: #ececec;
+	line-height: 40px;
+}
+
+.title h3 {
+	margin-left: 10px;
+	color: #333;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.title em {
+	float: right;
+	margin-right: 10px;
+	color: #333;
+	font-size: 14px;
+}
+
+.title a {
+	color: #c81623;
+}
+
+.reg_form {
+	width: 543px;
+	height: 368px;
+	margin: 54px auto 0;
+}
+
+.line {
+	margin-bottom: 20px;
+}
+
+.reg_form label {
+	float: left;
+	width: 78px;
+	height: 36px;
+	color: #4c4c4c;
+	font-size: 14px;
+	line-height: 36px;
+	text-align: right;
+}
+
+.reg_form input {
+	float: left;
+	width: 238px;
+	height: 34px;
+	margin-left: 10px;
+	border: 1px solid #999;
+}
+
+.reg_form span {
+	float: left;
+	font-size: 12px;
+	line-height: 36px;
+}
+
+.error {
+	color: #df3033;
+}
+
+.success {
+	color: #40b83f;
+}
+
+.reg_form img {
+	margin: 0 7px;
+	vertical-align: middle;
+}
+
+.line em {
+	float: left;
+	margin-left: 166px;
+	margin-right: 9px;
+	color: #b2b2b2;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+.line li {
+	float: left;
+	width: 34px;
+	height: 13px;
+	margin-right: 1px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 13px;
+	font-family: "SimSun";
+	text-align: center;
+}
+
+.red {
+	background-color: #de1111;
+}
+
+.green {
+	background-color: #40b83f;
+}
+
+.yellow {
+	background-color: #f79100;
+}
+
+.line2 {
+	margin-bottom: 10px;
+}
+
+.line3 {
+	margin-left: 78px;
+	margin-top: 42px;
+}
+
+.line3 input {
+	float: left;
+	width: 14px;
+	height: 13px;
+}
+
+.line3 label {
+	float: left;
+	width: 221px;
+	height: 15px;
+	color: #4d4d4d;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.line3 em {
+	color: #1ba1e6;
+}
+
+.line4 {
+	margin-left: 107px;
+	margin-top: 51px;
+}
+
+.line4 input {
+	width: 200px;
+	height: 34px;
+	border: 0;
+	background-color: #c81623;
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer {
+	height: 119px;
+	background-color: #fff;
+}

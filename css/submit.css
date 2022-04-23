@@ -1,0 +1,470 @@
+.header {
+	height: 104px;
+}
+
+.logo {
+	top: 23px;
+}
+
+.search {
+	left: 662px;
+}
+
+.text {
+	width: 443px;
+	padding-left: 11px;
+}
+
+.header_shopcar {
+	position: absolute;
+	left: 199px;
+	top: 37px;
+	color: #343434;
+	font-size: 20px;
+}
+
+.main h3 {
+	height: 36px;
+	color: #666;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.info {
+	padding: 0 25px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+/* 收件人信息 */
+
+.attn_info {
+	position: relative;
+	height: 155px;
+	border-bottom: 1px solid #ddd;
+}
+
+.recipients_info {
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	height: 15px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.recipients_detail {
+	position: absolute;
+	top: 73px;
+	left: 44px;
+}
+
+.recipients_detail dd,
+.recipients_detail dt {
+	float: left;
+	color: #666;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.recipients_detail dt {
+	width: 140px;
+	height: 26px;
+	border: 2px solid #c81623;
+	line-height: 26px;
+	text-align: center;
+}
+
+.recipients_detail dd {
+	height: 30px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+.more_recipients {
+	position: absolute;
+	top: 123px;
+	left: 44px;
+	height: 12px;
+	color: #666;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.more_recipients i {
+	margin-left: 11px;
+	font-family: "icomoon";
+}
+
+.add_recipients {
+	position: absolute;
+	top: 42px;
+	right: 60px;
+	height: 12px;
+	color: #1474af;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+/* 自提点信息 */
+
+.self {
+	position: relative;
+	height: 70px;
+	border-bottom: 1px solid #ddd;
+}
+
+.self_detail {
+	position: absolute;
+	top: 20px;
+	left: 44px;
+}
+
+.self_detail dd,
+.self_detail dt {
+	float: left;
+	color: #666;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.self_detail dt {
+	width: 142px;
+	height: 28px;
+	border: 1px solid #ddd;
+	line-height: 28px;
+	text-align: center;
+}
+
+.self_detail dd {
+	height: 30px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+/* 支付方式 */
+
+.pay {
+	position: relative;
+	height: 104px;
+	border-bottom: 1px solid #ddd;
+}
+
+.pay_info {
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	height: 15px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.pay_type {
+	position: absolute;
+	top: 54px;
+	left: 54px;
+}
+
+.pay_type ul {
+	float: left;
+}
+
+.pay_type li {
+	float: left;
+	width: 96px;
+	height: 28px;
+	border: 1px solid #ddd;
+	color: #666;
+	font-size: 12px;
+	line-height: 28px;
+	font-family: "SimSun";
+	text-align: center;
+}
+
+.pay_type .current {
+	width: 94px;
+	height: 26px;
+	margin-left: 9px;
+	border: 2px solid #c81623;
+	line-height: 26px;
+}
+
+.more_pay_type {
+	position: absolute;
+	top: 64px;
+	left: 382px;
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: "SimSun";
+}
+
+/* 送货清单 */
+
+.send_order {
+	height: 332px;
+	border-bottom: 1px solid #ddd;
+}
+
+.send_invoice {
+	margin: 23px 0 0 25px;
+	height: 15px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.distribution_mode_one {
+	position: relative;
+	height: 101px;
+	margin-top: 19px;
+	background-color: #f4f4f4;
+}
+
+.send_type_one {
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	height: 15px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.send_type_one_detail {
+	position: absolute;
+	top: 50px;
+	left: 44px;
+}
+
+.send_type_one_detail dd,
+.send_type_one_detail dt {
+	float: left;
+	color: #666;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.send_type_one_detail dt {
+	width: 140px;
+	height: 26px;
+	border: 2px solid #c81623;
+	line-height: 26px;
+	text-align: center;
+}
+
+.send_type_one_detail dd {
+	height: 30px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+.update {
+	position: absolute;
+	top: 60px;
+	right: 35px;
+	height: 12px;
+	color: #1474af;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.distribution_mode_two {
+	position: relative;
+	height: 153px;
+	background-color: #feedef;
+}
+
+.send_type_two {
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	height: 15px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.send_type_two_detail {
+	position: absolute;
+	top: 51px;
+	left: 44px;
+}
+
+.send_type_two_detail img {
+	float: left;
+	border: 1px solid #ddd;
+}
+
+.intro {
+	float: left;
+	width: 329px;
+	margin-left: 111px;
+	color: #666;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "SimSun";
+}
+
+.intro div {
+	margin-top: 11px;
+	color: #c81623;
+	line-height: 32px;
+}
+
+.price {
+	float: left;
+	margin-left: 322px;
+	color: #e12228;
+	font-size: 14px;
+	line-height: 36px;
+}
+
+.num {
+	float: left;
+	margin-left: 50px;
+	color: #666;
+	font-size: 12px;
+	line-height: 36px;
+	font-family: "SimSun";
+}
+
+.have {
+	float: left;
+	margin-left: 78px;
+	color: #666;
+	font-size: 12px;
+	line-height: 36px;
+	font-family: "SimSun";
+}
+
+/* 发票信息 */
+
+.bill {
+	position: relative;
+	height: 120px;
+}
+
+.bill_info {
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	height: 15px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.use_discounts {
+	position: absolute;
+	top: 86px;
+	left: 25px;
+	height: 15px;
+	color: #333;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.use_discounts i {
+	margin-left: 10px;
+	font-family: "icomoon";
+}
+
+.bill_detail {
+	position: absolute;
+	top: 54px;
+	left: 69px;
+}
+
+.bill_detail dt,
+.bill_detail dd {
+	float: left;
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: "SimSun";
+}
+
+.bill_detail dd {
+	margin-left: 31px;
+}
+
+.bill_detail .bill_update {
+	color: #1474af;
+}
+
+/* 统计 */
+
+.statistics {
+	margin: 15px 0;
+}
+
+.num_price {
+	color: #333;
+	font-size: 12px;
+	line-height: 21px;
+	text-align: right;
+}
+
+.num_price .key,
+.num_price .value {
+	float: left;
+}
+
+.num_price .key {
+	width: 1039px;
+}
+
+.num_price .value {
+	width: 128px;
+}
+
+.num_price i {
+	color: #e60012;
+}
+
+.receiving {
+	width: 1198px;
+	height: 70px;
+	background-color: #f4f4f4;
+	border: 1px solid #ddd;
+}
+
+.handle,
+.transmit {
+	padding-right: 31px;
+	font-size: 12px;
+	font-family: "SimSun";
+	text-align: right;
+}
+
+.transmit {
+	color: #999;
+	line-height: 18px;
+}
+
+.handle {
+	margin-top: 15px;
+	color: #666;
+	line-height: 20px;
+}
+
+.handle em {
+	margin-left: 30px;
+	color: #e60012;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+
+.submit {
+	margin: 20px 32px 32px 1027px;
+	width: 142px;
+	height: 46px;
+	background-color: #df3033;
+	color: #fff;
+	font-size: 18px;
+	line-height: 46px;
+	text-align: center;
+}

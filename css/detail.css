@@ -1,0 +1,835 @@
+/* 详情页的样式文件 */
+.crumb_wrap {
+	height: 22px;
+	margin-top: 26px;
+	color: #333;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.crumb_wrap a {
+	margin: 0 20px 0 18px;
+}
+
+.crumb_wrap .crumb_wrap_first {
+	margin-left: 0;
+}
+
+.preview_wrap {
+	float: left;
+	width: 400px;
+}
+
+.preview_img {
+	position: relative;
+	border: 1px solid #ededed;
+}
+
+.mask {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 300px;
+	background-color: #fede4f;
+	opacity: 0.5;
+}
+
+.big {
+	z-index: 999;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 400px;
+	width: 500px;
+	height: 500px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.big img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.preview_list {
+	position: relative;
+}
+
+.list-item {
+	width: 311px;
+	height: 58px;
+	margin: 64px auto 0;
+}
+
+.list-item ul {
+	width: 311px;
+}
+
+.list-item li {
+	float: left;
+	width: 56px;
+	height: 56px;
+	margin-right: 5px;
+	border: 1px solid transparent;
+}
+
+.list-item .list-item-last {
+	margin-right: 0;
+}
+
+.list-item .list-item-current {
+	border-color: #c81623;
+}
+
+.arrow_prev,
+.arrow_next {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	width: 19px;
+	height: 33px;
+}
+
+.arrow_prev {
+	left: 0;
+	background: url(../img/left.png) no-repeat;
+}
+
+.arrow_next {
+	right: 0;
+	background: url(../img/right.png) no-repeat;
+}
+
+.left_btns {
+	height: 12px;
+	margin: 25px 0 30px;
+	color: #666;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.left_btns i {
+	margin: 0 6px 0 32px;
+	color: #d85962;
+	font-family: "icomoon";
+}
+
+.left_btns .check_box {
+	color: #ddd;
+}
+
+.itemInfo_wrap {
+	float: right;
+	width: 718px;
+}
+
+.sku_name {
+	height: 34px;
+	color: #333;
+	font-size: 16px;
+}
+
+.news {
+	height: 32px;
+	color: #e12228;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+/* 规律 */
+.summary dl {
+	overflow: hidden;
+}
+
+.summary dt,
+.summary dd {
+	float: left;
+}
+
+.summary_price {
+	position: relative;
+	height: 42px;
+	background-color: #fee9eb;
+	line-height: 42px;
+}
+
+.key {
+	display: inline-block;
+	width: 56px;
+	color: #666;
+	font-size: 12px;
+	font-family: "SimSun";
+	text-align: right;
+}
+
+.margin_left {
+	margin-left: 14px;
+}
+
+.summary_price_value_span {
+	color: #e12228;
+	font-size: 24px;
+}
+
+.summary_price_value_span i {
+	font-size: 16px;
+}
+
+.summary_price_value_span a {
+	margin-left: 6px;
+	color: #c81623;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.summary_price .remark {
+	position: absolute;
+	top: 13px;
+	right: 11px;
+	height: 12px;
+	color: #999;
+	font-size: 12px;
+	font-family: "SimSun";
+	line-height: 12px;
+}
+
+.remark i {
+	color: #1474af;
+}
+
+.summary_promotion {
+	position: relative;
+	height: 71px;
+	padding-right: 103px;
+	background-color: #fee9eb;
+}
+
+.summary_promotion .key {
+	line-height: 22px;
+}
+
+.summary_promotion_value_span {
+	width: 545px;
+	height: 100%;
+	color: #999;
+	font-size: 12px;
+	font-family: "SimSun";
+	text-indent: 4em;
+	line-height: 22px;
+}
+
+.summary_promotion em {
+	position: absolute;
+	left: 74px;
+	top: 0;
+	width: 40px;
+	height: 22px;
+	background: url(./../img/promotion.png) no-repeat;
+}
+
+.summary_support {
+	height: 25px;
+	margin-top: 13px;
+}
+
+.summary_support .key {
+	height: 25px;
+}
+
+.summary_support_value_span {
+	display: inline-block;
+	height: 25px;
+	color: #999;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.summary_stock {
+	line-height: 26px;
+}
+
+.summary_stock .key {
+	float: left;
+}
+
+.summary_stock_value_span {
+	float: right;
+	height: 53px;
+	margin-right: 218px;
+	color: #999;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.summary_stock_value_span i {
+	font-family: "icomoon";
+}
+
+.summary_stock_value_span .drop_down {
+	margin-left: 50px;
+}
+
+.tieku {
+	margin-top: 6px;
+	border-bottom: 1px solid #ededed;
+}
+
+/* 选择颜色 */
+.choose_colors {
+	height: 43px;
+	margin-top: 15px;
+}
+
+.choose_colors .key {
+	float: left;
+	height: 100%;
+	line-height: 43px;
+}
+
+.choose_colors_value_span {
+	float: left;
+}
+
+.choose_colors_value_span a {
+	float: left;
+	height: 41px;
+	margin-right: 8px;
+	padding: 0 25px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	color: #333;
+	font-size: 12px;
+	line-height: 41px;
+	font-family: "SimSun";
+	text-align: center;
+}
+
+/* 选择版本 */
+.choose_version {
+	height: 34px;
+	margin-top: 7px;
+}
+
+.choose_version .key {
+	float: left;
+	height: 100%;
+	line-height: 34px;
+}
+
+.choose_version_value_span {
+	float: left;
+}
+
+.choose_version_value_span a {
+	float: left;
+	height: 32px;
+	margin-right: 8px;
+	padding: 0 13px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	color: #333;
+	font-size: 12px;
+	line-height: 32px;
+	font-family: "SimSun";
+	text-align: center;
+}
+
+/* 选择容量 */
+.choose_capacity {
+	height: 34px;
+	margin-top: 7px;
+}
+
+.choose_capacity .key {
+	float: left;
+	height: 100%;
+	line-height: 34px;
+}
+
+.choose_capacity_value_span {
+	float: left;
+}
+
+.choose_capacity_value_span a {
+	float: left;
+	height: 32px;
+	margin-right: 8px;
+	padding: 0px 18px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	color: #333;
+	font-size: 12px;
+	line-height: 32px;
+	font-family: "SimSun";
+	text-align: center;
+}
+
+/* 购买方式 */
+.choose_type {
+	height: 34px;
+	margin-top: 7px;
+}
+
+.choose_type .key {
+	float: left;
+	height: 100%;
+	line-height: 34px;
+}
+
+.choose_type_value_span {
+	float: left;
+}
+
+.choose_type_value_span a {
+	float: left;
+	height: 32px;
+	margin-right: 8px;
+	padding: 0px 14px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	color: #333;
+	font-size: 12px;
+	line-height: 32px;
+	font-family: "SimSun";
+	text-align: center;
+}
+
+/* 套装 */
+.choose_suit {
+	height: 34px;
+	margin-top: 7px;
+}
+
+.choose_suit .key {
+	float: left;
+	height: 100%;
+	line-height: 34px;
+}
+
+.choose_suit_value_span {
+	float: left;
+}
+
+.choose_suit_value_span a {
+	float: left;
+	height: 32px;
+	margin-right: 8px;
+	padding: 0px 14px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	color: #333;
+	font-size: 12px;
+	line-height: 32px;
+	font-family: "SimSun";
+	text-align: center;
+}
+
+a.choose {
+	border-color: #c81623;
+}
+
+.choose_btns {
+	height: 46px;
+	margin: 21px 0 30px 11px;
+}
+
+.choose_amount {
+	float: left;
+	position: relative;
+	width: 51px;
+	height: 46px;
+}
+
+.choose_amount input {
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	line-height: 44px;
+	text-align: center;
+}
+
+.add {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	line-height: 22px;
+	text-align: center;
+}
+
+.reduce {
+	float: left;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 15px;
+	height: 21px;
+	border: 1px solid #ccc;
+	line-height: 21px;
+	text-align: center;
+	/* 禁止鼠标样式 pointer 小手 move 移动 */
+	cursor: not-allowed;
+}
+
+.addshopcar {
+	display: inline-block;
+	width: 142px;
+	height: 46px;
+	margin-left: 10px;
+	background-color: #c81623;
+	color: #fff;
+	font-size: 18px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.aside {
+	float: left;
+	width: 208px;
+	border: 1px solid #ddd;
+}
+
+.tab_list ul {
+	width: 208px;
+}
+
+.tab_list li {
+	float: left;
+	height: 33px;
+	font-size: 12px;
+	line-height: 33px;
+	text-align: center;
+}
+
+.sort {
+	width: 104px;
+	color: #c81623;
+}
+
+.brand {
+	width: 103px;
+	color: #333;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.sort_item ul {
+	margin: 0 12px;
+}
+
+.sort_item > ul > li {
+	float: left;
+	width: 92px;
+	height: 28px;
+	color: #333;
+	font-size: 12px;
+	line-height: 28px;
+	border-bottom: 2px dashed #ededed;
+}
+
+.sort_item .last {
+	border-bottom: 2px dashed transparent;
+}
+
+.recommend {
+	height: 33px;
+	margin: 0 12px;
+	border-bottom: 1px solid #ededed;
+	color: #333;
+	font-size: 14px;
+	line-height: 33px;
+}
+
+.recommend_item li {
+	color: #333;
+	font-size: 12px;
+}
+
+.recommend_item h5 {
+	/* 超出的文字省略号显示 */
+	width: 184px;
+	height: 28px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 400;
+}
+
+.recommend_item div {
+	height: 12px;
+}
+
+.recommend_item .addcar {
+	display: block;
+	width: 88px;
+	height: 26px;
+	margin-left: 47px;
+	border: 1px solid #ddd;
+	line-height: 26px;
+	text-align: center;
+}
+
+.recommend_item .line {
+	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.recommend_item .relast {
+	margin-top: 20px;
+}
+
+.detail {
+	float: right;
+	width: 979px;
+}
+
+.detail_match_list {
+	width: 977px;
+	height: 39px;
+	border: 1px solid #ddd;
+}
+
+.detail_match_list li {
+	float: left;
+	height: 39px;
+	background-color: #c81623;
+	padding: 0 20px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 39px;
+}
+
+.detail_match_con {
+	padding-left: 17px;
+	border: 1px solid #ddd;
+}
+
+.detail_match_con .left {
+	float: left;
+	position: relative;
+	width: 790px;
+}
+
+.detail_match_con li {
+	float: left;
+	height: 38px;
+	padding-right: 43px;
+	color: #999;
+	font-size: 12px;
+	font-family: "SimSun";
+	line-height: 38px;
+}
+
+.right {
+	float: right;
+	width: 169px;
+	height: 261px;
+	border-left: 1px solid #ddd;
+}
+
+.right h3 {
+	height: 30px;
+	margin: 46px 0 0 16px;
+	color: #333;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.right p {
+	height: 25px;
+	margin-left: 16px;
+	color: #333;
+	font-size: 12px;
+}
+
+.right .price {
+	height: 66px;
+	margin-left: 16px;
+	color: #e12228;
+	font-size: 24px;
+}
+
+.right .price i {
+	font-size: 16px;
+}
+
+.right .addshopcar {
+	margin-left: 14px;
+}
+
+.match {
+	margin-top: 14px;
+}
+
+.self {
+	float: left;
+}
+
+.self img {
+	border: 1px solid #c81623;
+}
+
+.self p {
+	height: 34px;
+	color: #e12228;
+	font-size: 14px;
+	text-align: center;
+	line-height: 34px;
+}
+
+.add_match {
+	float: left;
+	height: 166px;
+	margin: 0 11px;
+	color: #333;
+	font-size: 16px;
+	line-height: 166px;
+}
+
+.match li {
+	float: left;
+	padding-right: 10px;
+}
+
+.match li p {
+	width: 98px;
+	height: 18px;
+	margin: 5px 16px 0;
+	color: #333;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "SimSun";
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.match .price {
+	height: 16px;
+	color: #e12228;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.match .price i {
+	color: #ddd;
+	font-family: "icomoon";
+}
+
+.arrow_right {
+	position: absolute;
+	top: 108px;
+	right: 0;
+	width: 19px;
+	height: 49px;
+	background-color: #ddd;
+	color: #fff;
+	line-height: 49px;
+	font-family: "icomoon";
+	text-align: center;
+}
+
+.detail_tab_list {
+	width: 977px;
+	height: 39px;
+	margin-top: 20px;
+	border: 1px solid #ddd;
+	background-color: #f1f1f1;
+	line-height: 39px;
+}
+
+.detail_tab_list li {
+	float: left;
+	padding: 0 21px;
+	color: #333;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.detail_tab_list .current {
+	background-color: #c81623;
+	color: #fff;
+}
+
+.detail_tab_con {
+	position: relative;
+}
+
+.parameter {
+	margin: 24px 0 0 22px;
+}
+
+.parameter li {
+	height: 21px;
+	color: #666;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.detail_tab_con .line {
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.detail_tab_con .more {
+	position: absolute;
+	top: 274px;
+	right: 8px;
+	color: #333;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.detail_tab_con .more i {
+	font-family: "icomoon";
+}
+
+.love_hd {
+	height: 39px;
+	margin-top: 20px;
+	padding-left: 12px;
+	border: 1px solid #ddd;
+	background-color: #f1f1f1;
+	color: #333;
+	font-size: 16px;
+	line-height: 39px;
+}
+
+.love_bd {
+	margin-bottom: 20px;
+	padding: 0 13px 0 77px;
+	border: 1px solid #ddd;
+}
+
+.love_bd li {
+	float: left;
+	width: 131px;
+	margin-right: 53px;
+}
+
+.love_bd p {
+	color: #333;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.love_bd em {
+	color: #c00;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.love_bd div {
+	margin: 31px 0;
+	color: #999;
+	font-size: 14px;
+}
+
+.love_bd i {
+	color: #005aa0;
+}
