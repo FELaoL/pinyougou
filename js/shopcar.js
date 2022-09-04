@@ -35,4 +35,48 @@ $(document).ready(function () {
 			$(this).parents(".card-item").removeClass("bgc");
 		}
 	});
+	// 3.增减商品数量模块，首先声明一个变量，当我们点击+号（increment),就让这个值++,然后赋值给文本框
+	// 减法
+	$(".reduce").click(function () {
+		// 得到当前兄弟文本框的值
+		var n = $(this).siblings(".num").val();
+		console.log(typeof n, n);
+		if (n - 0 === 1) {
+			return false;
+		}
+		// console.log(n);
+		n--;
+		$(this).siblings(".num").val(n);
+		// parents(".shop_num") 返回指定的祖先元素
+		// 3.计算小计模块 根据文本框的值 乘以 当前商品的价格 就是 商品的小计
+		// 当前商品的价格 p
+		var p = $(this).parents(".shop_num").siblings(".shop_price").html();
+		console.log(p);
+		// 小计模块
+		// toFixed(2) 可以让我们保留2位小数
+		$(this)
+			.parents(".shop_num")
+			.siblings(".shop_total_price")
+			.html("Y" + (p * n).toFixed(2));
+	});
+	// 加
+	$(".add").click(function () {
+		// 得到当前兄弟文本框的值
+		var n = $(this).siblings(".num").val();
+		console.log(typeof n, n);
+		// console.log(n);
+		n++;
+		$(this).siblings(".num").val(n);
+		// parents(".shop_num") 返回指定的祖先元素
+		// 3.计算小计模块 根据文本框的值 乘以 当前商品的价格 就是 商品的小计
+		// 当前商品的价格 p
+		var p = $(this).parents(".shop_num").siblings(".shop_price").html();
+		console.log(p);
+		// 小计模块
+		// toFixed(2) 可以让我们保留2位小数
+		$(this)
+			.parents(".shop_num")
+			.siblings(".shop_total_price")
+			.html("Y" + (p * n).toFixed(2));
+	});
 });
