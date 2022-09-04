@@ -108,4 +108,17 @@ $(document).ready(function () {
 		});
 		$(".total_line1 em:last-child").text("¥" + money.toFixed(2));
 	}
+	// 6.删除商品模块
+	// （1）商品后面的删除按钮
+	$(".shop_op div:first-child").click(function () {
+		// 删除的是当前的商品
+		$(this).parents(".card-item").remove();
+		getSum();
+	});
+	// (2) 删除选中的商品
+	$(".delete_checked").click(function () {
+		// 删除的是小的复选框选中的商品
+		$(".checkbox_shop:checked").parents(".card-item").remove();
+		getSum();
+	});
 });
