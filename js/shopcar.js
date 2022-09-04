@@ -57,7 +57,8 @@ $(document).ready(function () {
 		$(this)
 			.parents(".shop_num")
 			.siblings(".shop_total_price")
-			.html("Y" + (p * n).toFixed(2));
+			.html((p * n).toFixed(2));
+		getSum();
 	});
 	// 加
 	$(".add").click(function () {
@@ -77,6 +78,34 @@ $(document).ready(function () {
 		$(this)
 			.parents(".shop_num")
 			.siblings(".shop_total_price")
-			.html("Y" + (p * n).toFixed(2));
+			.html((p * n).toFixed(2));
+		getSum();
 	});
+	// 4.用户修改文本框的值 计算小计模块
+	$(".num").change(function () {
+		// 先得到文本框里面的值 乘以 当前商品的单价
+		var n = $(this).val();
+		// 当前商品的单价
+		var p = $(this).parents(".shop_num").siblings(".shop_price").html();
+		console.log(p);
+		$(this)
+			.parents(".shop_num")
+			.siblings(".shop_total_price")
+			.html((p * n).toFixed(2));
+		getSum();
+	});
+	// 5.计算总计和总额模块
+	getSum();
+	function getSum() {
+		var count = 0; // 计算总件数
+		var money = 0; // 计算总价钱
+		$(".num").each(function (i, ele) {
+			count += parseInt($(ele).val());
+		});
+		$(".total_line1 em").text(count);
+		$(".shop_total_price").each(function (i, ele) {
+			money += parseFloat($(ele).text());
+		});
+		$(".total_line1 em:last-child").text("¥" + money.toFixed(2));
+	}
 });
