@@ -667,6 +667,7 @@
 	top: 167px;
 	width: 66px;
 	margin-left: -677px;
+	display: none;
 }
 
 .fixedtool a {
@@ -688,4 +689,12 @@
 
 .fixedtool li:hover a {
 	color: #fff;
+}
+.fixedtool .current {
+	background-color: #c81623;
+	color: #fff !important;
+}
+.fixedtool .current a {
+	background-color: #c81623;
+	color: #fff !important;
 }
