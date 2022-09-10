@@ -96,6 +96,15 @@ window.addEventListener("load", function () {
 	var timer = setInterval(() => {
 		right.click();
 	}, 2000);
+	lazyLoadInit({
+		showTime: 1000,
+		onLoadBackEnd: function (i, e) {
+			console.log("onLoadBackEnd:" + i);
+		},
+		onLoadBackStart: function (i, e) {
+			console.log("onLoadBackStart:" + i);
+		}
+	});
 });
 $(function () {
 	// 当我们点击了小li 此时不需要执行，页面滚动事件 页面滚动事件里面的li的背景选择，添加current
